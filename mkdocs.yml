@@ -1,0 +1,128 @@
+site_name: Matematika
+site_description: Osobní wiki pro učení matematiky — krátké provázané stránky s interaktivními ukázkami.
+site_url: https://solarbaron.github.io/math-learning/
+repo_url: https://github.com/solarbaron/math-learning
+repo_name: solarbaron/math-learning
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: cs
+  icon:
+    logo: material/sigma
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Tmavý režim
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Světlý režim
+  features:
+    - navigation.instant
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.tooltips
+    - toc.follow
+
+plugins:
+  - search
+
+validation:
+  anchors: warn
+
+hooks:
+  - hooks/backlinks.py
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  # Náhled stránky po najetí myší na interní odkaz (jako na Wikipedii)
+  - material.extensions.preview:
+      targets:
+        include:
+          - "*"
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js
+  - javascripts/venn.js
+  - javascripts/widgets.js
+  - javascripts/numbers.js
+  - javascripts/matrix.js
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css
+  - stylesheets/extra.css
+
+nav:
+  - Úvod: index.md
+  - Symboly: symboly.md
+  - Množiny:
+      - mnoziny/index.md
+      - Základy:
+          - mnoziny/mnozina.md
+          - mnoziny/zapis-mnozin.md
+          - mnoziny/prazdna-mnozina.md
+          - mnoziny/podmnozina.md
+          - mnoziny/potencni-mnozina.md
+      - Operace:
+          - mnoziny/vennovy-diagramy.md
+          - mnoziny/sjednoceni.md
+          - mnoziny/prunik.md
+          - mnoziny/rozdil.md
+          - mnoziny/doplnek.md
+          - mnoziny/symetricka-diference.md
+          - mnoziny/zakony.md
+      - Dál:
+          - mnoziny/kartezsky-soucin.md
+          - mnoziny/mohutnost.md
+          - mnoziny/ciselne-mnoziny.md
+          - mnoziny/intervaly.md
+      - Nástroje:
+          - mnoziny/kalkulacka.md
+  - Dělitelnost:
+      - delitelnost/index.md
+      - delitelnost/delitel-a-nasobek.md
+      - delitelnost/prvocisla.md
+      - delitelnost/nsd.md
+      - delitelnost/nsn.md
+      - delitelnost/eukleiduv-algoritmus.md
+      - delitelnost/slovni-ulohy.md
