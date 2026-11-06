@@ -7,6 +7,7 @@
  *   <div class="laplace" data-m="..."></div>                               Laplaceův rozvoj (3×3, 4×4)
  *   <div class="det2d" data-m="3 1; 1 2"></div>                            determinant jako plocha
  *   <div class="matmul" data-a="1 2; 3 4" data-b="5 6; 7 8"></div>         násobení matic
+ *   <div class="adjugate" data-m="1 2 3; 0 1 4; 5 6 0"></div>              inverze přes adjungovanou matici
  *
  * Matice se zapisuje po řádcích oddělených středníkem (nebo novým řádkem),
  * čísla mezerou. Povolené jsou zlomky 2/3 a desetinná čísla s tečkou.
@@ -510,7 +511,7 @@
         ct.td.forEach((row, r) => row.forEach((c, k) => c.classList.toggle("pivot", r === i && k === j)));
         const plus = (i + j) % 2 === 0;
         detail.replaceChildren(
-          h("span", { text: `A${sub(i, j)} = (−1)^${i + j + 2} · det` }),
+          h("span", { text: `A${sub(i, j)} = (−1)${String(i + j + 2).split("").map(c => "⁰¹²³⁴⁵⁶⁷⁸⁹"[c]).join("")} · det` }),
           n > 1 ? matTable(minor(M, i, j), { small: true }).el : h("span", { text: "(1)" }),
           h("span", { text: `= ${plus ? "+" : "−"}${(plus ? cof[i][j] : new Q(0).sub(cof[i][j])).paren()} = ${cof[i][j]}` }));
       };
@@ -674,6 +675,7 @@
     once(".laplace", laplace);
     once(".det2d", det2d);
     once(".matmul", matmulWidget);
+    once(".adjugate", adjugate);
   }
 
   if (window.document$) document$.subscribe(() => init(document));

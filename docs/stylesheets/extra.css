@@ -470,3 +470,11 @@
 /* násobení */
 .mm-row { gap: .3em .6em; }
 .md-typeset table.mx td.mm-cell { cursor: pointer; }
+
+/* adjungovaná matice */
+.md-typeset .adjugate { margin: 1.2em 0; padding: 1em; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .4em; background: var(--md-code-bg-color); }
+.adj-steps { display: flex; flex-direction: column; gap: .9em; margin-top: .8em; }
+.adj-step { padding-left: .9em; border-left: 3px solid var(--md-default-fg-color--lightest); }
+.adj-title { display: flex; align-items: center; gap: .5em; font-weight: 700; font-size: .8rem; margin-bottom: .3em; }
+.adj-num { display: inline-grid; place-items: center; width: 1.5em; height: 1.5em; border-radius: 50%; background: var(--set-hl); color: #fff; font-size: .75rem; }
+.adj-detail { display: flex; flex-wrap: wrap; align-items: center; gap: .4em; font-family: var(--set-font-main); margin: .4em 0; min-height: 3em; }

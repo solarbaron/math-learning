@@ -37,6 +37,21 @@ Přehled značek používaných na této wiki. Každý řádek odkazuje na strá
 | $D(a, b)$ | největší společný dělitel (gcd) | „dé a, b" | [NSD](delitelnost/nsd.md) |
 | $n(a, b)$ | nejmenší společný násobek (lcm) | „en a, b" | [nsn](delitelnost/nsn.md) |
 
+## Matice
+
+| Symbol | Význam | Stránka |
+|---|---|---|
+| $a_{ij}$ | prvek v $i$-tém řádku a $j$-tém sloupci | [Matice](matice/matice.md) |
+| $E$ (také $I$) | jednotková matice | [Matice](matice/matice.md#typy-matic) |
+| $A^T$ | transponovaná matice | [Matice](matice/matice.md#transpozice) |
+| $\det A$, $\lvert A \rvert$ | determinant | [Determinant](matice/determinant.md) |
+| $M_{ij}$ | minor (škrtnutý řádek $i$ a sloupec $j$) | [Laplaceův rozvoj](matice/laplaceuv-rozvoj.md) |
+| $A_{ij}$ | algebraický doplněk $(-1)^{i+j} \det M_{ij}$ | [Laplaceův rozvoj](matice/laplaceuv-rozvoj.md) |
+| $\operatorname{adj} A$ | adjungovaná matice | [Inverzní matice](matice/inverzni-matice.md#metoda-1-adjungovana-matice) |
+| $A^{-1}$ | inverzní matice | [Inverzní matice](matice/inverzni-matice.md) |
+| $h(A)$ | hodnost | [Schodovitý tvar](matice/schodovity-tvar.md#hodnost) |
+| $\sim$ | ekvivalentní řádkové úpravy | [Schodovitý tvar](matice/schodovity-tvar.md) |
+
 ## Logika
 
 | Symbol | Význam | Čte se |

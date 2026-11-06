@@ -23,6 +23,13 @@ interaktivní ukázkou, na které si věc můžeš osahat.
     Dělitelé, násobky, prvočísla, největší společný dělitel a nejmenší
     společný násobek — se slovními úlohami.
 
+-   :material-matrix: **[Matice](matice/index.md)**
+
+    ---
+
+    Schodovitý tvar, determinant 3×3 a 4×4 (Sarrus, Laplace, úpravy)
+    a inverzní matice dvěma metodami.
+
 -   :material-book-alphabet: **[Symboly](symboly.md)**
 
     ---
@@ -31,7 +38,7 @@ interaktivní ukázkou, na které si věc můžeš osahat.
 
 </div>
 
-Na řadě dál: *výroková logika*, *relace a zobrazení*, *zlomky*.
+Na řadě dál: *výroková logika*, *relace a zobrazení*, *soustavy rovnic*.
 
 ## Jak číst stránky
 

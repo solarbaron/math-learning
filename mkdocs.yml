@@ -126,3 +126,14 @@ nav:
       - delitelnost/nsn.md
       - delitelnost/eukleiduv-algoritmus.md
       - delitelnost/slovni-ulohy.md
+  - Matice:
+      - matice/index.md
+      - matice/matice.md
+      - matice/operace.md
+      - matice/schodovity-tvar.md
+      - Determinant:
+          - matice/determinant.md
+          - matice/sarrusovo-pravidlo.md
+          - matice/laplaceuv-rozvoj.md
+          - matice/determinant-upravami.md
+      - matice/inverzni-matice.md
