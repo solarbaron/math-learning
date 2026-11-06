@@ -87,6 +87,7 @@ extra_javascript:
   - javascripts/widgets.js
   - javascripts/numbers.js
   - javascripts/matrix.js
+  - javascripts/calculus.js
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css
@@ -137,3 +138,29 @@ nav:
           - matice/laplaceuv-rozvoj.md
           - matice/determinant-upravami.md
       - matice/inverzni-matice.md
+  - Goniometrie:
+      - goniometrie/index.md
+      - goniometrie/radiany.md
+      - goniometrie/jednotkova-kruznice.md
+      - goniometrie/grafy.md
+      - goniometrie/vzorce.md
+      - goniometrie/rovnice.md
+  - Analýza:
+      - analyza/index.md
+      - Základy:
+          - analyza/druhy-funkci.md
+          - analyza/eulerovo-cislo.md
+          - analyza/prirozeny-logaritmus.md
+      - Limity:
+          - analyza/limita-posloupnosti.md
+          - analyza/limita-funkce.md
+          - analyza/vypocet-limit.md
+      - Derivace:
+          - analyza/derivace.md
+          - analyza/pravidla-derivovani.md
+          - analyza/uziti-derivace.md
+      - Integrály:
+          - analyza/neurcity-integral.md
+          - analyza/metody-integrace.md
+          - analyza/urcity-integral.md
+      - analyza/tabulky.md

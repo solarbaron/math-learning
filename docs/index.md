@@ -30,6 +30,19 @@ interaktivní ukázkou, na které si věc můžeš osahat.
     Schodovitý tvar, determinant 3×3 a 4×4 (Sarrus, Laplace, úpravy)
     a inverzní matice dvěma metodami.
 
+-   :material-sine-wave: **[Goniometrie](goniometrie/index.md)**
+
+    ---
+
+    Radiány, jednotková kružnice, grafy, vzorce a goniometrické rovnice.
+
+-   :material-chart-bell-curve-cumulative: **[Analýza](analyza/index.md)**
+
+    ---
+
+    Druhy funkcí, číslo $e$ a přirozený logaritmus, limity, derivace, integrály
+    a [tabulka derivací a integrálů](analyza/tabulky.md).
+
 -   :material-book-alphabet: **[Symboly](symboly.md)**
 
     ---
@@ -38,7 +51,7 @@ interaktivní ukázkou, na které si věc můžeš osahat.
 
 </div>
 
-Na řadě dál: *výroková logika*, *relace a zobrazení*, *soustavy rovnic*.
+Na řadě dál: *výroková logika*, *relace a zobrazení*, *soustavy rovnic*, *posloupnosti a řady*.
 
 ## Jak číst stránky
 

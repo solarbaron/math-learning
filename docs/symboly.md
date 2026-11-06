@@ -52,6 +52,23 @@ Přehled značek používaných na této wiki. Každý řádek odkazuje na strá
 | $h(A)$ | hodnost | [Schodovitý tvar](matice/schodovity-tvar.md#hodnost) |
 | $\sim$ | ekvivalentní řádkové úpravy | [Schodovitý tvar](matice/schodovity-tvar.md) |
 
+## Analýza a goniometrie
+
+| Symbol | Význam | Stránka |
+|---|---|---|
+| $e$ | Eulerovo číslo $\approx 2{,}718$ | [Eulerovo číslo](analyza/eulerovo-cislo.md) |
+| $\ln x$ | přirozený logaritmus (základ $e$) | [Přirozený logaritmus](analyza/prirozeny-logaritmus.md) |
+| $\log x$ | desítkový logaritmus | [Přirozený logaritmus](analyza/prirozeny-logaritmus.md) |
+| $\lim\limits_{x \to a} f(x)$ | limita | [Limita funkce](analyza/limita-funkce.md) |
+| $x \to a^+$, $x \to a^-$ | zprava, zleva | [Limita funkce](analyza/limita-funkce.md#jednostranne-limity) |
+| $f'(x)$, $\frac{df}{dx}$ | derivace | [Derivace](analyza/derivace.md) |
+| $\int f(x)\,dx$ | neurčitý integrál | [Neurčitý integrál](analyza/neurcity-integral.md) |
+| $\int_a^b f(x)\,dx$ | určitý integrál | [Určitý integrál](analyza/urcity-integral.md) |
+| $\big[F(x)\big]_a^b$ | $F(b) - F(a)$ | [Určitý integrál](analyza/urcity-integral.md#newtonovaleibnizova-formule) |
+| $\sin, \cos, \operatorname{tg}, \operatorname{cotg}$ | goniometrické funkce | [Jednotková kružnice](goniometrie/jednotkova-kruznice.md) |
+| $\arcsin, \arccos, \operatorname{arctg}$ | cyklometrické funkce | [Rovnice](goniometrie/rovnice.md#cyklometricke-funkce) |
+| $\pi$ rad | $180°$ | [Radiány](goniometrie/radiany.md) |
+
 ## Logika
 
 | Symbol | Význam | Čte se |
