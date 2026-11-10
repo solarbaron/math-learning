@@ -1,11 +1,11 @@
-# Matematika
+# Matematika a kryptografie
 
-Osobní wiki pro učení matematiky. Krátké stránky, každá o jednom pojmu,
+Osobní wiki pro učení matematiky a kryptografie. Krátké stránky, každá o jednom pojmu,
 provázané odkazy jako na Wikipedii — a kde to jde, s obrázkem nebo
 interaktivní ukázkou, na které si věc můžeš osahat.
 { .lead }
 
-## Témata
+## Matematika
 
 <div class="grid cards" markdown>
 
@@ -48,6 +48,39 @@ interaktivní ukázkou, na které si věc můžeš osahat.
     ---
 
     Tahák: co který znak znamená, jak se čte a kde se o něm dočteš víc.
+
+</div>
+
+## Kryptografie
+
+<div class="grid cards" markdown>
+
+-   :material-script-text-outline: **[Klasické šifry](kryptografie/caesarova-sifra.md)**
+
+    ---
+
+    Atbash, Skytale, Caesar, Vigenère, Vernam (XOR) a frekvenční analýza, se
+    šifrovacím kolem a tabula recta na hraní.
+
+-   :material-calculator-variant-outline: **[Teorie čísel](kryptografie/modularni-aritmetika.md)**
+
+    ---
+
+    Modulo, kongruence, Eulerova funkce, Square and Multiply, inverzní prvek,
+    rozšířený Eukleides, Fermat a Euler, čínská věta, generátory.
+
+-   :material-key-chain: **[Asymetrická kryptografie](kryptografie/rsa.md)**
+
+    ---
+
+    Testy prvočíselnosti, RSA, Diffie-Hellman, útok muž uprostřed a podpis DSA,
+    krok za krokem.
+
+-   :material-pencil-box-outline: **[Cvičení](kryptografie/cviceni.md)**
+
+    ---
+
+    Všechny úlohy ze cvičení s řešením. Začni [přehledem kryptografie](kryptografie/index.md).
 
 </div>
 

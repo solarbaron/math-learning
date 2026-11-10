@@ -1,5 +1,5 @@
-site_name: Matematika
-site_description: Osobní wiki pro učení matematiky — krátké provázané stránky s interaktivními ukázkami.
+site_name: Matematika a kryptografie
+site_description: Osobní wiki pro učení matematiky a kryptografie — krátké provázané stránky s interaktivními ukázkami.
 site_url: https://solarbaron.github.io/math-learning/
 repo_url: https://github.com/solarbaron/math-learning
 repo_name: solarbaron/math-learning
@@ -29,6 +29,7 @@ theme:
   features:
     - navigation.instant
     - navigation.instant.preview
+    - navigation.tabs
     - navigation.tracking
     - navigation.sections
     - navigation.indexes
@@ -88,6 +89,7 @@ extra_javascript:
   - javascripts/numbers.js
   - javascripts/matrix.js
   - javascripts/calculus.js
+  - javascripts/crypto.js
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css
@@ -95,72 +97,106 @@ extra_css:
 
 nav:
   - Úvod: index.md
-  - Symboly: symboly.md
-  - Množiny:
-      - mnoziny/index.md
-      - Základy:
-          - mnoziny/mnozina.md
-          - mnoziny/zapis-mnozin.md
-          - mnoziny/prazdna-mnozina.md
-          - mnoziny/podmnozina.md
-          - mnoziny/potencni-mnozina.md
-      - Operace:
-          - mnoziny/vennovy-diagramy.md
-          - mnoziny/sjednoceni.md
-          - mnoziny/prunik.md
-          - mnoziny/rozdil.md
-          - mnoziny/doplnek.md
-          - mnoziny/symetricka-diference.md
-          - mnoziny/zakony.md
-      - Dál:
-          - mnoziny/kartezsky-soucin.md
-          - mnoziny/mohutnost.md
-          - mnoziny/ciselne-mnoziny.md
-          - mnoziny/intervaly.md
-      - Nástroje:
-          - mnoziny/kalkulacka.md
-  - Dělitelnost:
-      - delitelnost/index.md
-      - delitelnost/delitel-a-nasobek.md
-      - delitelnost/prvocisla.md
-      - delitelnost/nsd.md
-      - delitelnost/nsn.md
-      - delitelnost/eukleiduv-algoritmus.md
-      - delitelnost/slovni-ulohy.md
-  - Matice:
-      - matice/index.md
-      - matice/matice.md
-      - matice/operace.md
-      - matice/schodovity-tvar.md
-      - Determinant:
-          - matice/determinant.md
-          - matice/sarrusovo-pravidlo.md
-          - matice/laplaceuv-rozvoj.md
-          - matice/determinant-upravami.md
-      - matice/inverzni-matice.md
-  - Goniometrie:
-      - goniometrie/index.md
-      - goniometrie/radiany.md
-      - goniometrie/jednotkova-kruznice.md
-      - goniometrie/grafy.md
-      - goniometrie/vzorce.md
-      - goniometrie/rovnice.md
-  - Analýza:
-      - analyza/index.md
-      - Základy:
-          - analyza/druhy-funkci.md
-          - analyza/eulerovo-cislo.md
-          - analyza/prirozeny-logaritmus.md
-      - Limity:
-          - analyza/limita-posloupnosti.md
-          - analyza/limita-funkce.md
-          - analyza/vypocet-limit.md
-      - Derivace:
-          - analyza/derivace.md
-          - analyza/pravidla-derivovani.md
-          - analyza/uziti-derivace.md
-      - Integrály:
-          - analyza/neurcity-integral.md
-          - analyza/metody-integrace.md
-          - analyza/urcity-integral.md
-      - analyza/tabulky.md
+  - Matematika:
+    - Množiny:
+        - mnoziny/index.md
+        - Základy:
+            - mnoziny/mnozina.md
+            - mnoziny/zapis-mnozin.md
+            - mnoziny/prazdna-mnozina.md
+            - mnoziny/podmnozina.md
+            - mnoziny/potencni-mnozina.md
+        - Operace:
+            - mnoziny/vennovy-diagramy.md
+            - mnoziny/sjednoceni.md
+            - mnoziny/prunik.md
+            - mnoziny/rozdil.md
+            - mnoziny/doplnek.md
+            - mnoziny/symetricka-diference.md
+            - mnoziny/zakony.md
+        - Dál:
+            - mnoziny/kartezsky-soucin.md
+            - mnoziny/mohutnost.md
+            - mnoziny/ciselne-mnoziny.md
+            - mnoziny/intervaly.md
+        - Nástroje:
+            - mnoziny/kalkulacka.md
+    - Dělitelnost:
+        - delitelnost/index.md
+        - delitelnost/delitel-a-nasobek.md
+        - delitelnost/prvocisla.md
+        - delitelnost/nsd.md
+        - delitelnost/nsn.md
+        - delitelnost/eukleiduv-algoritmus.md
+        - delitelnost/slovni-ulohy.md
+    - Matice:
+        - matice/index.md
+        - matice/matice.md
+        - matice/operace.md
+        - matice/schodovity-tvar.md
+        - Determinant:
+            - matice/determinant.md
+            - matice/sarrusovo-pravidlo.md
+            - matice/laplaceuv-rozvoj.md
+            - matice/determinant-upravami.md
+        - matice/inverzni-matice.md
+    - Goniometrie:
+        - goniometrie/index.md
+        - goniometrie/radiany.md
+        - goniometrie/jednotkova-kruznice.md
+        - goniometrie/grafy.md
+        - goniometrie/vzorce.md
+        - goniometrie/rovnice.md
+    - Analýza:
+        - analyza/index.md
+        - Základy:
+            - analyza/druhy-funkci.md
+            - analyza/eulerovo-cislo.md
+            - analyza/prirozeny-logaritmus.md
+        - Limity:
+            - analyza/limita-posloupnosti.md
+            - analyza/limita-funkce.md
+            - analyza/vypocet-limit.md
+        - Derivace:
+            - analyza/derivace.md
+            - analyza/pravidla-derivovani.md
+            - analyza/uziti-derivace.md
+        - Integrály:
+            - analyza/neurcity-integral.md
+            - analyza/metody-integrace.md
+            - analyza/urcity-integral.md
+        - analyza/tabulky.md
+    - Symboly: symboly.md
+  - Kryptografie:
+      - kryptografie/index.md
+      - kryptografie/symetricka-a-asymetricka.md
+      - Klasické šifry:
+          - kryptografie/atbash.md
+          - kryptografie/skytale.md
+          - kryptografie/caesarova-sifra.md
+          - kryptografie/vigenerova-sifra.md
+          - kryptografie/vernamova-sifra.md
+          - kryptografie/frekvencni-analyza.md
+          - kryptografie/enigma.md
+      - Teorie čísel:
+          - kryptografie/modularni-aritmetika.md
+          - kryptografie/kongruence.md
+          - kryptografie/algebraicke-struktury.md
+          - kryptografie/eulerova-funkce.md
+          - kryptografie/modularni-mocneni.md
+          - kryptografie/inverzni-prvek.md
+          - kryptografie/rozsireny-eukleiduv-algoritmus.md
+          - kryptografie/fermatova-a-eulerova-veta.md
+          - kryptografie/cinska-veta-o-zbytcich.md
+          - kryptografie/generatory.md
+      - Prvočísla:
+          - kryptografie/testy-prvociselnosti.md
+          - kryptografie/fermatuv-test.md
+          - kryptografie/miller-rabinuv-test.md
+          - kryptografie/lucas-lehmeruv-test.md
+      - Asymetrická kryptografie:
+          - kryptografie/rsa.md
+          - kryptografie/diffie-hellman.md
+          - kryptografie/utok-muz-uprostred.md
+          - kryptografie/dsa.md
+      - kryptografie/cviceni.md

@@ -69,6 +69,20 @@ Přehled značek používaných na této wiki. Každý řádek odkazuje na strá
 | $\arcsin, \arccos, \operatorname{arctg}$ | cyklometrické funkce | [Rovnice](goniometrie/rovnice.md#cyklometricke-funkce) |
 | $\pi$ rad | $180°$ | [Radiány](goniometrie/radiany.md) |
 
+## Kryptografie
+
+| Symbol | Význam | Stránka |
+|---|---|---|
+| $a \bmod n$ | zbytek po dělení $a$ číslem $n$ | [Modulární aritmetika](kryptografie/modularni-aritmetika.md) |
+| $a \equiv b \pmod n$ | $a$ a $b$ mají stejný zbytek (kongruence) | [Kongruence](kryptografie/kongruence.md) |
+| $\mathrm{GCD}(a, b)$, $\mathrm{LCM}(a, b)$ | největší společný dělitel, nejmenší společný násobek | [NSD](delitelnost/nsd.md), [NSN](delitelnost/nsn.md) |
+| $\varphi(n)$, Phi(n) | Eulerova funkce | [Eulerova funkce](kryptografie/eulerova-funkce.md) |
+| $a^{-1} \bmod n$ | inverzní prvek | [Inverzní prvek](kryptografie/inverzni-prvek.md) |
+| $\mathbb{Z}_n$, $\mathbb{Z}_n^*$ | zbytky $0 \dots n-1$; jen ty nesoudělné s $n$ | [Algebraické struktury](kryptografie/algebraicke-struktury.md) |
+| $\oplus$ | XOR | [Vernamova šifra](kryptografie/vernamova-sifra.md) |
+| $S_k$, $V_k$ | soukromý a veřejný klíč | [RSA](kryptografie/rsa.md) |
+| $H(m)$ | otisk (hash) zprávy | [DSA](kryptografie/dsa.md) |
+
 ## Logika
 
 | Symbol | Význam | Čte se |

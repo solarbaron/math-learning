@@ -1,4 +1,4 @@
-# Matematika — osobní wiki
+# Matematika a kryptografie — osobní wiki
 
 Krátké provázané stránky s interaktivními ukázkami. Postaveno na
 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/), nasazuje se na GitHub Pages.
@@ -27,7 +27,7 @@ Jednorázově je potřeba v repu nastavit **Settings → Pages → Source: GitHu
 
 ## Widgety
 
-Vložené jako HTML do Markdownu, vykreslí je skripty v `docs/javascripts/` (`venn.js`, `widgets.js`, `numbers.js`, `matrix.js`, `calculus.js`).
+Vložené jako HTML do Markdownu, vykreslí je skripty v `docs/javascripts/` (`venn.js`, `widgets.js`, `numbers.js`, `matrix.js`, `calculus.js`, `crypto.js`).
 
 | Widget | Kód |
 |---|---|
@@ -59,6 +59,25 @@ Vložené jako HTML do Markdownu, vykreslí je skripty v `docs/javascripts/` (`v
 | Posloupnost | `<div class="sequence" data-a="(1+1/n)^n" data-limit="e"></div>` |
 | Jednotková kružnice | `<div class="unit-circle" data-deg="30"></div>` |
 | Poznávačka funkcí | `<div class="func-quiz"></div>` |
+| Atbash | `<div class="atbash" data-text="TAJNA"></div>` |
+| Caesarovo kolo | `<div class="caesar" data-text="HESLO" data-k="3"></div>` |
+| Caesar hrubou silou | `<div class="caesar-brute" data-text="KHVOR"></div>` |
+| Vigenère + tabula recta | `<div class="vigenere" data-text="HESLO" data-key="2,5,3,4,1"></div>` (klíč čísly nebo slovem) |
+| Skytale | `<div class="skytale" data-text="KRYPTOGRAFIE" data-k="4"></div>` |
+| Vernam (XOR) | `<div class="vernam" data-text="LES" data-key="CBA"></div>` |
+| Frekvenční analýza | `<div class="freq" data-text="…"></div>` |
+| Modulární hodiny | `<div class="modclock" data-a="-12" data-n="5"></div>` (`data-b` = kongruence) |
+| Eulerova funkce | `<div class="phi-grid" data-n="20"></div>` |
+| Square and Multiply | `<div class="sqmul" data-a="3" data-e="33" data-n="17"></div>` |
+| Násobilka mod n | `<div class="mod-table" data-n="10" data-a="3"></div>` |
+| Rozšířený Eukleides | `<div class="ext-euclid" data-x="3" data-n="20"></div>` |
+| Fermat / Euler | `<div class="reduce" data-a="46" data-e="51" data-n="15"></div>` |
+| Čínská věta | `<div class="crt" data-sys="3 mod 6; 2 mod 7"></div>` |
+| Generátory | `<div class="generator" data-n="23" data-g="5"></div>` |
+| Testy prvočíselnosti | `<div class="primetest" data-test="fermat" data-n="21" data-a="2"></div>` (`fermat`, `mr`, `ll`) |
+| RSA | `<div class="rsa" data-r="11" data-s="13" data-sk="7" data-m="28"></div>` |
+| Diffie-Hellman | `<div class="dh" data-n="23" data-g="6" data-q="11" data-a="7" data-b="8"></div>` (`data-mitm`, `data-c`) |
+| DSA | `<div class="dsa" data-n="23" data-q="11" data-g="4" data-sk="9" data-k="4" data-h="4"></div>` |
 
 Výrazy ve Vennových diagramech: `∪ ∩ \ Δ '`, závorky, `U` (univerzum), `∅`.
 
